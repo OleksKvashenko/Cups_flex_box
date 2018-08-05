@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-content {
+    background: #fdde7e;
+    width: 1200px;
+}
+
+.col {
+    background: #ffffff;
+    width: 30%;
+    text-align: center;
+    margin: 78px 0;
+    padding-top: 36px;
+}
+
+
+.gold-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*align-items: baseline;*/
+    padding-top: 64px;
+}
+
+.cost {
+    font-size: 70px;
+    color: #02995b;
+    /*margin-top: 36px;*/
+}
+
+.header-box {
+    /*margin-top: 32px;*/
+}
+
+.text-box {
+    /*margin-top: 38px;*/
+}
+
+.continuation-text-box {
+    /*margin-top:-12px;*/
+}
+
+

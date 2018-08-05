@@ -1,0 +1,29 @@
+/*.flex-content {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-evenly;*/
+    /*align-items: stretch;*/
+/*}*/
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+    .flex-content {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+}
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px){
+
+
+}
